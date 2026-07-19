@@ -1,0 +1,65 @@
+body {
+    background-color: aqua;
+}
+
+.TrangCaNhan {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+}
+
+.avatar {
+    width: 120px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #3498db;
+    display: block;
+    margin: 0 auto;
+}
+
+.Name {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.NgheNghiep {
+    text-align: center;
+    color: #3498db;
+    font-size: 18px;
+}
+
+.GioiThieu {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.KyNang {
+    display: inline-block;
+    background-color: #dfefff;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    list-style: none;
+}
+
+.LienHe {
+    display: block;
+    width: 120px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.LienHe:hover {
+    background-color: #21618c;
+    transition: ease 0.25s;
+}
