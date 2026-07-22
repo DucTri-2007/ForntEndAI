@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #5c3317;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px 0 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Phần 2 - html */
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.about-content{
+    background-color: #FFFCE1;
+    padding: 40px;
+    text-align: center;
+}
+
+.about-content h2{
+    color: #5c3317;
+    font-size: 28px;
+}
+
+.about-content .btn{
+    display: inline-block;
+    background-color: #5c3317;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: ease 0.25s;
+}
+
+.about-content .btn:hover{
+    background-color: #8d4513;
+}
+
+p{
+    margin: 10px 0;
+}
+/* Phần 3 - Card */
+#menu{
+    background-color: #FFF;
+    padding: 40px;
+    text-align: center;
+}
+
+#menu h2{
+    color: #5c3317;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.menu-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card{
+    width: 33.33%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: ease 0.25s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card img{
+  width: 100%;  
+  height: 250px;
+  object-fit: cover;
+}
+
+.card h3{
+    margin-top: 5px;
+    margin: 0;
+}
+
+.card p{
+    color: #555;
+    font-size: 16px;   
+}
+
+.price{
+    display: block;
+    color: #e74c3c;
+    font-weight: 700;
+    padding: 0  15px 15px;
+    font-size: 18px;
+}
+/* Phần 4 - Liên hệ */
+#contact{
+    background-color: #fff8f0;
+    padding: 40px;
+    text-align: center;
+}
+
+#contact h2{
+    color: #5c3317;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.content-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.contact-info p, .contact-form{
+    width: 300px;
+    text-align: left;
+}
+
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.contact-form button{
+    background-color: #5c3317;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    width: 100%;
+    transition: ease 0.25s;
+}
+.contact-form button:hover{
+    background-color: #8d4513;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 15px;
+}
