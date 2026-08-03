@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2 - Đếm ký tự</title>
+</head>
+<body>
+    <h2>Bài 2: Đếm ký tự và số từ</h2>
+    <label for="textInput">Nhập văn bản của bạn:</label>
+    <br>
+    <textarea id="textInput" rows="4" cols="40"></textarea>
+    <br>
+    <button onclick="countCharactersAndWords()">Đếm</button>
+    <p id="result"></p>
+
+    <script>
+        function countCharactersAndWords() {
+            let text = document.getElementById("textInput").value;  
+            let charCount = text.length;
+            let textTrimmed = text.trim();
+            let wordCount = 0;
+            if (textTrimmed !== "") {
+                let wordsArray = textTrimmed.split(/\s+/);
+                wordCount = wordsArray.length;
+            }
+            document.getElementById("result").innerHTML = 
+                "Số ký tự: " + charCount + " <br> Số từ: " + wordCount;
+        }
+    </script>
+</body>
+</html>
